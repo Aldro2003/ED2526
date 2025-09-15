@@ -18,6 +18,10 @@ struct Libro
 void cambiarFactorGeneral(float factor, float nuevoValor)
 {
     factor = nuevoValor;
+    //(*direccion_factor) = nuevoValor;
+
+    // el & es para sacar la dirección de memoria
+    // el * para hacer una indirección (te da el valor en vez de la dir. de memoria)
 }
 
 /**
@@ -25,14 +29,19 @@ void cambiarFactorGeneral(float factor, float nuevoValor)
  * @param lb libro al que se debe aplicar el porcentaje.
  * @param factor Factor a aplicar.
  */
-void aplicarFactorPrecioLibro(struct Libro lb, float factor)
+void aplicarFactorPrecioLibro(struct Libro *lb, float factor)
 {
-    lb.precio *= factor;
+    //(*lb).precio *= factor;
+    lb->precio *= factor;
 }
 
-void cambiarIdLibro(struct Libro lb, char *nuevoId)
+/// @brief Cambio el id del libro por lo nuevo que me pasan
+/// @param lb  estructura del libro
+/// @param nuevoId nuevo ID
+void cambiarIdLibro(struct Libro *lb, char *nuevoId)
 {
     // lb.id = nuevoId;
+    strcpy(lb->id, nuevoId);
 }
 
 int main(void)
@@ -41,8 +50,8 @@ int main(void)
     float factor = 0;
 
     cambiarFactorGeneral(factor, 0.25f);
-    aplicarFactorPrecioLibro(lb1, factor);
-    // cambiarIdLibro()
+    aplicarFactorPrecioLibro(&lb1, factor);
+    cambiarIdLibro(&lb1, lb1.id);
 
     return 0;
 }
