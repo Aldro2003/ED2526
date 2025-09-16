@@ -2,15 +2,21 @@
 
 int main()
 {
-  int *ptr;
+  int *ptrInt;
+  char *ptrChar;
+  float *ptrFloat;
+
   int x = 10;
-  ptr = &x;
+  char y = 'y';
+  float z = 3.14;
 
-  printf("Valor del entero x: %d, Direccion de memoria de x: %p", *ptr, &x);
+  ptrInt = &x;
+  ptrChar = &y;
+  ptrFloat = &z;
 
-  // ¿Por qué le valor de &x y de &ptr son diferentes? ¿No deberían ser el mismo?
-  // No son iguales porque &x es la dirección de la variable x y &ptr es la dirección del puntero mismo.
-  // Lo que sí es cierto es que ptr == &x.
+  printf("Valor del entero x: %d, Direccion de memoria de x: %p, Tamaño ocupado en bytes: %d\n", *ptrInt, &x, sizeof(ptrInt));
+  printf("Valor del char y: %c, Direccion de memoria de y: %p, Tamaño ocupado en bytes: %d\n", *ptrChar, &y, sizeof(ptrChar));
+  printf("Valor del float z: %.2f, Direccion de memoria de z: %p, Tamaño ocupado en bytes: %d\n", *ptrFloat, &z, sizeof(ptrFloat));
 
   return 0;
 }
