@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "principal2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-principal2-Debug-d9243b051c3f71248578.json",
-					"name" : "principal2",
+					"id" : "principal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-principal-Debug-b650488cb99a24280a46.json",
+					"name" : "principal",
 					"projectIndex" : 0
 				}
 			]

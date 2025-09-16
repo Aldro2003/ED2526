@@ -116,41 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named principal2
+# Target rules for targets named principal
 
 # Build rule for target.
-principal2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 principal2
-.PHONY : principal2
+principal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 principal
+.PHONY : principal
 
 # fast build rule for target.
-principal2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal2.dir\build.make CMakeFiles/principal2.dir/build
-.PHONY : principal2/fast
+principal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal.dir\build.make CMakeFiles/principal.dir/build
+.PHONY : principal/fast
 
-principal2.obj: principal2.c.obj
-.PHONY : principal2.obj
+principal.obj: principal.c.obj
+.PHONY : principal.obj
 
 # target to build an object file
-principal2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal2.dir\build.make CMakeFiles/principal2.dir/principal2.c.obj
-.PHONY : principal2.c.obj
+principal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal.dir\build.make CMakeFiles/principal.dir/principal.c.obj
+.PHONY : principal.c.obj
 
-principal2.i: principal2.c.i
-.PHONY : principal2.i
+principal.i: principal.c.i
+.PHONY : principal.i
 
 # target to preprocess a source file
-principal2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal2.dir\build.make CMakeFiles/principal2.dir/principal2.c.i
-.PHONY : principal2.c.i
+principal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal.dir\build.make CMakeFiles/principal.dir/principal.c.i
+.PHONY : principal.c.i
 
-principal2.s: principal2.c.s
-.PHONY : principal2.s
+principal.s: principal.c.s
+.PHONY : principal.s
 
 # target to generate assembly for a file
-principal2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal2.dir\build.make CMakeFiles/principal2.dir/principal2.c.s
-.PHONY : principal2.c.s
+principal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\principal.dir\build.make CMakeFiles/principal.dir/principal.c.s
+.PHONY : principal.c.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... principal2
-	@echo ... principal2.obj
-	@echo ... principal2.i
-	@echo ... principal2.s
+	@echo ... principal
+	@echo ... principal.obj
+	@echo ... principal.i
+	@echo ... principal.s
 .PHONY : help
 
 

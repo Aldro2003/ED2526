@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/Usuario/Desktop/ED/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\principal2.dir\\principal2.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion3\\espaciotrabajo\\principal2.c",
-  "file": "C:/Users/Usuario/Desktop/ED/Sesion3/espaciotrabajo/principal2.c",
-  "output": "CMakeFiles/principal2.dir/principal2.c.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\principal.dir\\principal.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion3\\espaciotrabajo\\principal.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion3/espaciotrabajo/principal.c",
+  "output": "CMakeFiles/principal.dir/principal.c.obj"
 }
 ]
