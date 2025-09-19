@@ -19,6 +19,17 @@ void iterar(struct Node *head)
   }
 }
 
+void append(int x, struct Node *head)
+{
+  while (head->next != NULL)
+  {
+    head = head->next;
+  }
+  head->next = malloc(sizeof(struct Node));
+  head->next->data = x;
+  head->next->next = NULL;
+}
+
 int main(void)
 {
   // Declara una solo variable de tipo struct Node llamada head.
