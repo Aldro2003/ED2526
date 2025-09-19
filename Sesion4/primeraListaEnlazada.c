@@ -44,5 +44,6 @@ int main(void)
   head->next->next->next = NULL;
 
   iterar(head);
+
   return 0;
 }
