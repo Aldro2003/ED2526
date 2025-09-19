@@ -30,6 +30,29 @@ void append(int x, struct Node *head)
   head->next->next = NULL;
 }
 
+void insertar_cabeza(struct Node **ptrhead, int data)
+{
+  struct Node *aux = malloc(sizeof(struct Node));
+  if (aux == NULL)
+  {
+    exit(-1);
+  }
+
+  if (ptrhead == NULL)
+  {
+    *ptrhead = aux;
+    (*ptrhead)->data = data;
+  }
+  else
+  {
+    aux->next = (*ptrhead)->next;
+    (*ptrhead)->next->data = (*ptrhead)->data;
+    (*ptrhead)->next = ptrhead;
+    *ptrhead = aux;
+    (*ptrhead)->data = data;
+  }
+}
+
 int main(void)
 {
   // Declara una solo variable de tipo struct Node llamada head.
