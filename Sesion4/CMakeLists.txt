@@ -3,7 +3,7 @@ project(cuartoDia)
 
 add_compile_options(-std=c17 -Wall -Wextra -Wpedantic)  # Para todo el proyecto
 
-add_executable(memoriaDinamica1 memoriaDinamica1.c)
+add_executable(primeraListaEnlazada primeraListaEnlazada.c)
 
 #si solo quiere añadir a este ejecutable y sus dependientes
 #target_compile_options(principal PUBLIC -Wall -Wextra)

@@ -52,7 +52,7 @@ void insertar_alfinal(struct Node **ptrhead, int data)
   aux->data = data;
   aux->next = NULL;
 
-  if (ptrhead == NULL)
+  if (*ptrhead == NULL)
   {
     *ptrhead = aux;
   }
@@ -60,15 +60,19 @@ void insertar_alfinal(struct Node **ptrhead, int data)
   {
 
     struct Node *rotar = NULL;
-    rotar = ptrhead;
+    rotar = *ptrhead;
 
-    while (rotar != NULL)
+    while (rotar->next != NULL)
     {
       rotar = rotar->next;
     }
 
     rotar->next = aux;
   }
+}
+
+bool eliminar(struct Node **ptrhead, int data)
+{
 }
 
 int main(void)
@@ -85,6 +89,7 @@ int main(void)
   head->next->next->next = NULL;
 
   iterar(head);
-
+  insertar_alfinal(&head, 7);
+  iterar(head);
   return 0;
 }
