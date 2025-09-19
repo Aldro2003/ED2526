@@ -37,19 +37,37 @@ void insertar_cabeza(struct Node **ptrhead, int data)
   {
     exit(-1);
   }
+  aux->data = data;
+  aux->next = *ptrhead;
+  *ptrhead = aux;
+}
+
+void insertar_alfinal(struct Node **ptrhead, int data)
+{
+  struct Node *aux = malloc(sizeof(struct Node));
+  if (aux == NULL)
+  {
+    exit(-1);
+  }
+  aux->data = data;
+  aux->next = NULL;
 
   if (ptrhead == NULL)
   {
     *ptrhead = aux;
-    (*ptrhead)->data = data;
   }
   else
   {
-    aux->next = (*ptrhead)->next;
-    (*ptrhead)->next->data = (*ptrhead)->data;
-    (*ptrhead)->next = ptrhead;
-    *ptrhead = aux;
-    (*ptrhead)->data = data;
+
+    struct Node *rotar = NULL;
+    rotar = ptrhead;
+
+    while (rotar != NULL)
+    {
+      rotar = rotar->next;
+    }
+
+    rotar->next = aux;
   }
 }
 
