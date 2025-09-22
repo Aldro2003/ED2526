@@ -1,95 +1,176 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
-struct Node
-{
-  int data;
-  struct Node *next;
-}; // Alias para la estructura
+#include <stdio.h>
+#include <stdbool.h>
+#include "primeraListaEnlazada.h"
 
 void iterar(struct Node *head)
 {
-  int i = 0;
+
+  struct Node *ptrIter = head;
+
   while (head != NULL)
   {
-    printf("Data: %i  | Posicion: %i\n", head->data, i);
-    head = head->next;
-    i++;
-  }
-}
-
-void append(int x, struct Node *head)
-{
-  while (head->next != NULL)
-  {
+    printf("%d ", head->data);
     head = head->next;
   }
-  head->next = malloc(sizeof(struct Node));
-  head->next->data = x;
-  head->next->next = NULL;
 }
 
-void insertar_cabeza(struct Node **ptrhead, int data)
+void insertarCabeza(struct Node **ptrhead, int dato)
 {
-  struct Node *aux = malloc(sizeof(struct Node));
-  if (aux == NULL)
+  struct Node *nuevoPtr = (struct Node *)malloc(sizeof(struct Node));
+  if (nuevoPtr == NULL)
   {
+    printf("Error al asignar memoria\n");
     exit(-1);
   }
-  aux->data = data;
-  aux->next = *ptrhead;
-  *ptrhead = aux;
+
+  nuevoPtr->data = dato;
+  nuevoPtr->next = *ptrhead;
+  *ptrhead = nuevoPtr;
 }
 
-void insertar_alfinal(struct Node **ptrhead, int data)
+void insertarFinal(struct Node **ptrhead, int dato)
 {
-  struct Node *aux = malloc(sizeof(struct Node));
-  if (aux == NULL)
+
+  struct Node *nuevoPtr = (struct Node *)malloc(sizeof(struct Node));
+  if (nuevoPtr == NULL)
   {
+    printf("Error al asignar memoria\n");
     exit(-1);
   }
-  aux->data = data;
-  aux->next = NULL;
+
+  nuevoPtr->data = dato;
+  nuevoPtr->next = NULL;
 
   if (*ptrhead == NULL)
   {
-    *ptrhead = aux;
+    *ptrhead = nuevoPtr;
   }
   else
   {
+    struct Node *ptrIter = *ptrhead;
 
-    struct Node *rotar = NULL;
-    rotar = *ptrhead;
-
-    while (rotar->next != NULL)
+    while (ptrIter->next != NULL)
     {
-      rotar = rotar->next;
+      ptrIter = ptrIter->next;
     }
-
-    rotar->next = aux;
+    ptrIter->next = nuevoPtr;
   }
 }
 
-bool eliminar(struct Node **ptrhead, int data)
+void eliminarHead(struct Node **ptrHead)
 {
+  if (*ptrHead == NULL)
+  {
+    printf("No hay nodos que eliminar");
+    exit(-1);
+  }
+  else
+  {
+    struct Node *aux = *ptrHead;
+    *ptrHead = aux->next;
+    free(aux);
+    aux = NULL;
+  }
 }
 
-int main(void)
+void eliminarFinal2(struct Node **ptrhead)
 {
-  // Declara una solo variable de tipo struct Node llamada head.
-  // Pide memoria para tres nodos y enlaza cada una de ellas para tener el valor 3->7->9->NULL.
-  struct Node *head = (struct Node *)malloc(sizeof(struct Node));
+  if (*ptrhead == NULL)
+  {
+    printf("No hay nodos que eliminar");
+    exit(-1);
+  }
+  else
+  {
+    struct Node *aux = *ptrhead;
+    while (aux->next->next != NULL)
+    {
+      aux = aux->next;
+    }
+    free(aux->next);
+    aux->next = NULL;
+  }
+}
 
-  head->data = 3;
-  head->next = malloc(sizeof(struct Node));
-  head->next->data = 7;
-  head->next->next = malloc(sizeof(struct Node));
-  head->next->next->data = 9;
-  head->next->next->next = NULL;
+void eliminarDato(struct Node **ptrHead, int dato)
+{
+  struct Node *act = *ptrHead;
+  struct Node *ant = NULL;
+  while (act != NULL && act->data != dato)
+  {
+    ant = act;
+    act = act->next;
+  }
+  if (act != NULL)
+  {
+    if (act == *ptrHead)
+    {
+      *ptrHead = act->next;
+    }
+    else
+    {
+      ant->next = act->next;
+    }
+    free(act);
+    act = NULL;
+  }
+  else
+  {
+    printf("El dato %d no se encuentra en la lista\n", dato);
+  }
+}
 
-  iterar(head);
-  insertar_alfinal(&head, 7);
-  iterar(head);
-  return 0;
+void destruir(struct Node **ptrHead)
+{
+
+  if (*ptrHead == NULL)
+  {
+    printf("La lista no existe");
+    exit(-1);
+  }
+  while (*ptrHead != NULL)
+  {
+    struct Node *aux = *ptrHead;
+    *ptrHead = aux->next;
+    printf("Va a morir esto %d\n", aux->data);
+    free(aux);
+    aux = NULL;
+  }
+}
+
+void insertarEnPosicion(struct Node **ptrHead, int dato, int pos)
+{
+  struct Node *nuevoNodo = (struct Node *)malloc(sizeof(struct Node));
+  struct Node *act = *ptrHead;
+  struct Node *ant = NULL;
+  if (nuevoNodo == NULL)
+  {
+    printf("No se pudo asignar la memoria");
+    exit(-1);
+  }
+  nuevoNodo->data = dato;
+  if (pos == 0)
+  {
+    insertarCabeza(ptrHead, dato);
+  }
+  else
+  {
+    int i = 0;
+    while (act != NULL && i <= pos - 1)
+    {
+      ant = act;
+      act = act->next;
+      i++;
+    }
+    if (i == pos)
+    {
+      ant->next = nuevoNodo;
+      nuevoNodo->next = act;
+    }
+    else
+    {
+      printf("Error no se ha podido insertar en la posicion\n");
+    }
+  }
 }
