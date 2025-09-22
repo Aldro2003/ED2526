@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Usuario/Desktop/ED/Sesion4/primeraListaEnlazada.c" "CMakeFiles/primeraListaEnlazada.dir/primeraListaEnlazada.c.obj" "gcc" "CMakeFiles/primeraListaEnlazada.dir/primeraListaEnlazada.c.obj.d"
+  "C:/Users/Usuario/Desktop/ED/Sesion4/principal.c" "CMakeFiles/primeraListaEnlazada.dir/principal.c.obj" "gcc" "CMakeFiles/primeraListaEnlazada.dir/principal.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

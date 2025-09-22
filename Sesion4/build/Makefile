@@ -152,6 +152,30 @@ primeraListaEnlazada.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeraListaEnlazada.dir\build.make CMakeFiles/primeraListaEnlazada.dir/primeraListaEnlazada.c.s
 .PHONY : primeraListaEnlazada.c.s
 
+principal.obj: principal.c.obj
+.PHONY : principal.obj
+
+# target to build an object file
+principal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeraListaEnlazada.dir\build.make CMakeFiles/primeraListaEnlazada.dir/principal.c.obj
+.PHONY : principal.c.obj
+
+principal.i: principal.c.i
+.PHONY : principal.i
+
+# target to preprocess a source file
+principal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeraListaEnlazada.dir\build.make CMakeFiles/primeraListaEnlazada.dir/principal.c.i
+.PHONY : principal.c.i
+
+principal.s: principal.c.s
+.PHONY : principal.s
+
+# target to generate assembly for a file
+principal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeraListaEnlazada.dir\build.make CMakeFiles/primeraListaEnlazada.dir/principal.c.s
+.PHONY : principal.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... primeraListaEnlazada.obj
 	@echo ... primeraListaEnlazada.i
 	@echo ... primeraListaEnlazada.s
+	@echo ... principal.obj
+	@echo ... principal.i
+	@echo ... principal.s
 .PHONY : help
 
 

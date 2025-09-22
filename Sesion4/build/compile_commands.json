@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Users/Usuario/Desktop/ED/Sesion4/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\primeraListaEnlazada.dir\\principal.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion4\\principal.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion4/principal.c",
+  "output": "CMakeFiles/primeraListaEnlazada.dir/principal.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion4/build",
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\primeraListaEnlazada.dir\\primeraListaEnlazada.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion4\\primeraListaEnlazada.c",
   "file": "C:/Users/Usuario/Desktop/ED/Sesion4/primeraListaEnlazada.c",
   "output": "CMakeFiles/primeraListaEnlazada.dir/primeraListaEnlazada.c.obj"

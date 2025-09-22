@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/primeraListaEnlazada.dir/primeraListaEnlazada.c.obj"
   "CMakeFiles/primeraListaEnlazada.dir/primeraListaEnlazada.c.obj.d"
+  "CMakeFiles/primeraListaEnlazada.dir/principal.c.obj"
+  "CMakeFiles/primeraListaEnlazada.dir/principal.c.obj.d"
   "libprimeraListaEnlazada.dll.a"
   "primeraListaEnlazada.exe"
   "primeraListaEnlazada.exe.manifest"
