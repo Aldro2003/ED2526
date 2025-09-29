@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion6/MemoriaDinamica/Cola/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c.dir\\src\\principal.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion6\\MemoriaDinamica\\Cola\\src\\principal.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion6/MemoriaDinamica/Cola/src/principal.c",
+  "output": "CMakeFiles/data_structures_c.dir/src/principal.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion6/MemoriaDinamica/Cola/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c.dir\\src\\ColaL\\cola.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion6\\MemoriaDinamica\\Cola\\src\\ColaL\\cola.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion6/MemoriaDinamica/Cola/src/ColaL/cola.c",
+  "output": "CMakeFiles/data_structures_c.dir/src/ColaL/cola.c.obj"
+}
+]

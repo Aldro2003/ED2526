@@ -1,0 +1,6 @@
+C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build/CMakeFiles/data_structures_c_LL.dir
+C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build/CMakeFiles/data_structures_c_A.dir
+C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build/CMakeFiles/data_structures_c_TA.dir
+C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build/CMakeFiles/data_structures_c_TLL.dir
+C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build/CMakeFiles/rebuild_cache.dir

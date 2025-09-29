@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_LL.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_LL.dir\\src\\principal_ll.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\principal_ll.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/principal_ll.c",
+  "output": "CMakeFiles/data_structures_c_LL.dir/src/principal_ll.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_LL.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_LL.dir\\src\\Stack_LL\\stack_ll.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\Stack_LL\\stack_ll.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/Stack_LL/stack_ll.c",
+  "output": "CMakeFiles/data_structures_c_LL.dir/src/Stack_LL/stack_ll.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_A.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_A.dir\\src\\principal_a.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\principal_a.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/principal_a.c",
+  "output": "CMakeFiles/data_structures_c_A.dir/src/principal_a.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_A.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_A.dir\\src\\Stack_A\\stack_a.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\Stack_A\\stack_a.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/Stack_A/stack_a.c",
+  "output": "CMakeFiles/data_structures_c_A.dir/src/Stack_A/stack_a.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_TA.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_TA.dir\\src\\test_a.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\test_a.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/test_a.c",
+  "output": "CMakeFiles/data_structures_c_TA.dir/src/test_a.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_TA.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_TA.dir\\src\\Stack_A\\stack_a.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\Stack_A\\stack_a.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/Stack_A/stack_a.c",
+  "output": "CMakeFiles/data_structures_c_TA.dir/src/Stack_A/stack_a.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_TLL.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_TLL.dir\\src\\test_ll.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\test_ll.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/test_ll.c",
+  "output": "CMakeFiles/data_structures_c_TLL.dir/src/test_ll.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/data_structures_c_TLL.dir/includes_C.rsp -g -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c_TLL.dir\\src\\Stack_LL\\stack_ll.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Sesion7\\Pila\\src\\Stack_LL\\stack_ll.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Sesion7/Pila/src/Stack_LL/stack_ll.c",
+  "output": "CMakeFiles/data_structures_c_TLL.dir/src/Stack_LL/stack_ll.c.obj"
+}
+]
