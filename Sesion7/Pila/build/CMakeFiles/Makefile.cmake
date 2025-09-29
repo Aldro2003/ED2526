@@ -45,7 +45,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/data_structures_c_LL.dir/DependInfo.cmake"
-  "CMakeFiles/data_structures_c_A.dir/DependInfo.cmake"
-  "CMakeFiles/data_structures_c_TA.dir/DependInfo.cmake"
-  "CMakeFiles/data_structures_c_TLL.dir/DependInfo.cmake"
   )

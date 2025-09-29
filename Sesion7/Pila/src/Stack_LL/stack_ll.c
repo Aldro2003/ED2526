@@ -61,7 +61,7 @@ void stack_ll_push(struct Stack_ll *ptrStack, struct Node element)
 
   aux->capacidad = element.capacidad;
   aux->color = element.color;
-  strcpy(aux->material, element.material);
+  aux->material = element.material;
 
   aux->next = ptrStack->top;
   ptrStack->top = aux;
@@ -125,10 +125,25 @@ int stack_ll_size(struct Stack_ll *ptrStack)
  * @brief Elimina todos los elementos de la pila
  * @param ptrStack  Puntero a la Pila
  */
-void stack_ll_clear(struct Stack_ll *ptrStack);
+void stack_ll_clear(struct Stack_ll *ptrStack)
+{
+  while (ptrStack->top != NULL)
+  {
+    stack_ll_pop(ptrStack);
+  }
+  ptrStack = NULL;
+}
 
 /**
  * @brief Muestra los elementos de la pila
  * @param ptrStack Puntero a la pila a mostrar
  */
-void stack_ll_show(struct Stack_ll *ptrStack);
+void stack_ll_show(struct Stack_ll *ptrStack)
+{
+  struct Node *aux = ptrStack->top;
+  while (aux != NULL)
+  {
+    printf("Color: %i , Capacidad: %.2f , Material: %d \n", aux->color, aux->capacidad, aux->material);
+    aux = aux->next;
+  }
+}

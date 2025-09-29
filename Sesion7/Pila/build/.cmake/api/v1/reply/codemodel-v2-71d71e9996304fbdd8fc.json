@@ -15,10 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1,
-						2,
-						3
+						0
 					]
 				}
 			],
@@ -33,10 +30,7 @@
 					"name" : "data_structures_c",
 					"targetIndexes" : 
 					[
-						0,
-						1,
-						2,
-						3
+						0
 					]
 				}
 			],
@@ -44,30 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "data_structures_c_A::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-data_structures_c_A-Debug-0f72dae181d05eb14a18.json",
-					"name" : "data_structures_c_A",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "data_structures_c_LL::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-data_structures_c_LL-Debug-cede44a6f557238fb17e.json",
 					"name" : "data_structures_c_LL",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "data_structures_c_TA::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-data_structures_c_TA-Debug-9b01c20af0637860442b.json",
-					"name" : "data_structures_c_TA",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "data_structures_c_TLL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-data_structures_c_TLL-Debug-65be8612e202b5361cbe.json",
-					"name" : "data_structures_c_TLL",
 					"projectIndex" : 0
 				}
 			]

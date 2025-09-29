@@ -128,79 +128,12 @@ data_structures_c_LL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_LL.dir\build.make CMakeFiles/data_structures_c_LL.dir/build
 .PHONY : data_structures_c_LL/fast
 
-#=============================================================================
-# Target rules for targets named data_structures_c_A
-
-# Build rule for target.
-data_structures_c_A: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 data_structures_c_A
-.PHONY : data_structures_c_A
-
-# fast build rule for target.
-data_structures_c_A/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/build
-.PHONY : data_structures_c_A/fast
-
-#=============================================================================
-# Target rules for targets named data_structures_c_TA
-
-# Build rule for target.
-data_structures_c_TA: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 data_structures_c_TA
-.PHONY : data_structures_c_TA
-
-# fast build rule for target.
-data_structures_c_TA/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/build
-.PHONY : data_structures_c_TA/fast
-
-#=============================================================================
-# Target rules for targets named data_structures_c_TLL
-
-# Build rule for target.
-data_structures_c_TLL: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 data_structures_c_TLL
-.PHONY : data_structures_c_TLL
-
-# fast build rule for target.
-data_structures_c_TLL/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/build
-.PHONY : data_structures_c_TLL/fast
-
-src/Stack_A/stack_a.obj: src/Stack_A/stack_a.c.obj
-.PHONY : src/Stack_A/stack_a.obj
-
-# target to build an object file
-src/Stack_A/stack_a.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/src/Stack_A/stack_a.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/src/Stack_A/stack_a.c.obj
-.PHONY : src/Stack_A/stack_a.c.obj
-
-src/Stack_A/stack_a.i: src/Stack_A/stack_a.c.i
-.PHONY : src/Stack_A/stack_a.i
-
-# target to preprocess a source file
-src/Stack_A/stack_a.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/src/Stack_A/stack_a.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/src/Stack_A/stack_a.c.i
-.PHONY : src/Stack_A/stack_a.c.i
-
-src/Stack_A/stack_a.s: src/Stack_A/stack_a.c.s
-.PHONY : src/Stack_A/stack_a.s
-
-# target to generate assembly for a file
-src/Stack_A/stack_a.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/src/Stack_A/stack_a.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/src/Stack_A/stack_a.c.s
-.PHONY : src/Stack_A/stack_a.c.s
-
 src/Stack_LL/stack_ll.obj: src/Stack_LL/stack_ll.c.obj
 .PHONY : src/Stack_LL/stack_ll.obj
 
 # target to build an object file
 src/Stack_LL/stack_ll.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_LL.dir\build.make CMakeFiles/data_structures_c_LL.dir/src/Stack_LL/stack_ll.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/src/Stack_LL/stack_ll.c.obj
 .PHONY : src/Stack_LL/stack_ll.c.obj
 
 src/Stack_LL/stack_ll.i: src/Stack_LL/stack_ll.c.i
@@ -209,7 +142,6 @@ src/Stack_LL/stack_ll.i: src/Stack_LL/stack_ll.c.i
 # target to preprocess a source file
 src/Stack_LL/stack_ll.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_LL.dir\build.make CMakeFiles/data_structures_c_LL.dir/src/Stack_LL/stack_ll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/src/Stack_LL/stack_ll.c.i
 .PHONY : src/Stack_LL/stack_ll.c.i
 
 src/Stack_LL/stack_ll.s: src/Stack_LL/stack_ll.c.s
@@ -218,32 +150,7 @@ src/Stack_LL/stack_ll.s: src/Stack_LL/stack_ll.c.s
 # target to generate assembly for a file
 src/Stack_LL/stack_ll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_LL.dir\build.make CMakeFiles/data_structures_c_LL.dir/src/Stack_LL/stack_ll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/src/Stack_LL/stack_ll.c.s
 .PHONY : src/Stack_LL/stack_ll.c.s
-
-src/principal_a.obj: src/principal_a.c.obj
-.PHONY : src/principal_a.obj
-
-# target to build an object file
-src/principal_a.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/src/principal_a.c.obj
-.PHONY : src/principal_a.c.obj
-
-src/principal_a.i: src/principal_a.c.i
-.PHONY : src/principal_a.i
-
-# target to preprocess a source file
-src/principal_a.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/src/principal_a.c.i
-.PHONY : src/principal_a.c.i
-
-src/principal_a.s: src/principal_a.c.s
-.PHONY : src/principal_a.s
-
-# target to generate assembly for a file
-src/principal_a.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_A.dir\build.make CMakeFiles/data_structures_c_A.dir/src/principal_a.c.s
-.PHONY : src/principal_a.c.s
 
 src/principal_ll.obj: src/principal_ll.c.obj
 .PHONY : src/principal_ll.obj
@@ -269,54 +176,6 @@ src/principal_ll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_LL.dir\build.make CMakeFiles/data_structures_c_LL.dir/src/principal_ll.c.s
 .PHONY : src/principal_ll.c.s
 
-src/test_a.obj: src/test_a.c.obj
-.PHONY : src/test_a.obj
-
-# target to build an object file
-src/test_a.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/src/test_a.c.obj
-.PHONY : src/test_a.c.obj
-
-src/test_a.i: src/test_a.c.i
-.PHONY : src/test_a.i
-
-# target to preprocess a source file
-src/test_a.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/src/test_a.c.i
-.PHONY : src/test_a.c.i
-
-src/test_a.s: src/test_a.c.s
-.PHONY : src/test_a.s
-
-# target to generate assembly for a file
-src/test_a.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TA.dir\build.make CMakeFiles/data_structures_c_TA.dir/src/test_a.c.s
-.PHONY : src/test_a.c.s
-
-src/test_ll.obj: src/test_ll.c.obj
-.PHONY : src/test_ll.obj
-
-# target to build an object file
-src/test_ll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/src/test_ll.c.obj
-.PHONY : src/test_ll.c.obj
-
-src/test_ll.i: src/test_ll.c.i
-.PHONY : src/test_ll.i
-
-# target to preprocess a source file
-src/test_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/src/test_ll.c.i
-.PHONY : src/test_ll.c.i
-
-src/test_ll.s: src/test_ll.c.s
-.PHONY : src/test_ll.s
-
-# target to generate assembly for a file
-src/test_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures_c_TLL.dir\build.make CMakeFiles/data_structures_c_TLL.dir/src/test_ll.c.s
-.PHONY : src/test_ll.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -325,28 +184,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... data_structures_c_A
 	@echo ... data_structures_c_LL
-	@echo ... data_structures_c_TA
-	@echo ... data_structures_c_TLL
-	@echo ... src/Stack_A/stack_a.obj
-	@echo ... src/Stack_A/stack_a.i
-	@echo ... src/Stack_A/stack_a.s
 	@echo ... src/Stack_LL/stack_ll.obj
 	@echo ... src/Stack_LL/stack_ll.i
 	@echo ... src/Stack_LL/stack_ll.s
-	@echo ... src/principal_a.obj
-	@echo ... src/principal_a.i
-	@echo ... src/principal_a.s
 	@echo ... src/principal_ll.obj
 	@echo ... src/principal_ll.i
 	@echo ... src/principal_ll.s
-	@echo ... src/test_a.obj
-	@echo ... src/test_a.i
-	@echo ... src/test_a.s
-	@echo ... src/test_ll.obj
-	@echo ... src/test_ll.i
-	@echo ... src/test_ll.s
 .PHONY : help
 
 
