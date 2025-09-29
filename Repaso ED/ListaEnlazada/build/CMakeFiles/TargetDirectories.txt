@@ -1,0 +1,3 @@
+C:/Users/Usuario/Desktop/Repaso ED/ListaEnlazada/build/CMakeFiles/main.dir
+C:/Users/Usuario/Desktop/Repaso ED/ListaEnlazada/build/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Desktop/Repaso ED/ListaEnlazada/build/CMakeFiles/rebuild_cache.dir

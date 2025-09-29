@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\MainTask.dir\\src\\MainTask.c.obj -c \"C:\\Users\\Usuario\\Desktop\\Repaso ED\\TaskSchedulerWorkSpace\\src\\MainTask.c\"",
+  "file": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/src/MainTask.c",
+  "output": "CMakeFiles/MainTask.dir/src/MainTask.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\MainTask.dir\\src\\Task.c.obj -c \"C:\\Users\\Usuario\\Desktop\\Repaso ED\\TaskSchedulerWorkSpace\\src\\Task.c\"",
+  "file": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/src/Task.c",
+  "output": "CMakeFiles/MainTask.dir/src/Task.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\MainScheduler.dir\\src\\MainScheduler.c.obj -c \"C:\\Users\\Usuario\\Desktop\\Repaso ED\\TaskSchedulerWorkSpace\\src\\MainScheduler.c\"",
+  "file": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/src/MainScheduler.c",
+  "output": "CMakeFiles/MainScheduler.dir/src/MainScheduler.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\MainScheduler.dir\\src\\Scheduler.c.obj -c \"C:\\Users\\Usuario\\Desktop\\Repaso ED\\TaskSchedulerWorkSpace\\src\\Scheduler.c\"",
+  "file": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/src/Scheduler.c",
+  "output": "CMakeFiles/MainScheduler.dir/src/Scheduler.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\MainScheduler.dir\\src\\Task.c.obj -c \"C:\\Users\\Usuario\\Desktop\\Repaso ED\\TaskSchedulerWorkSpace\\src\\Task.c\"",
+  "file": "C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/src/Task.c",
+  "output": "CMakeFiles/MainScheduler.dir/src/Task.c.obj"
+}
+]

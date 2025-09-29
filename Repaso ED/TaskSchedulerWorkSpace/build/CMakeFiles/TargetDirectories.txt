@@ -1,0 +1,4 @@
+C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build/CMakeFiles/MainTask.dir
+C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build/CMakeFiles/MainScheduler.dir
+C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Desktop/Repaso ED/TaskSchedulerWorkSpace/build/CMakeFiles/rebuild_cache.dir
