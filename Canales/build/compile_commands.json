@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Usuario/Desktop/Canales/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c.dir\\src\\principal.c.obj -c C:\\Users\\Usuario\\Desktop\\Canales\\src\\principal.c",
+  "file": "C:/Users/Usuario/Desktop/Canales/src/principal.c",
+  "output": "CMakeFiles/data_structures_c.dir/src/principal.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/Canales/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=c17 -Wall -Wextra -Wpedantic -o CMakeFiles\\data_structures_c.dir\\src\\canalesl\\canales.c.obj -c C:\\Users\\Usuario\\Desktop\\Canales\\src\\canalesl\\canales.c",
+  "file": "C:/Users/Usuario/Desktop/Canales/src/canalesl/canales.c",
+  "output": "CMakeFiles/data_structures_c.dir/src/canalesl/canales.c.obj"
+}
+]
