@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Spotify/EsqueletoPractica2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/Practica1.dir/includes_C.rsp  -Wall -Wextra -g -Wall -Wextra -std=c17 -o CMakeFiles\\Practica1.dir\\src\\main.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Spotify\\EsqueletoPractica2\\src\\main.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Spotify/EsqueletoPractica2/src/main.c",
+  "output": "CMakeFiles/Practica1.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/Users/Usuario/Desktop/ED/Spotify/EsqueletoPractica2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/Practica1.dir/includes_C.rsp  -Wall -Wextra -g -Wall -Wextra -std=c17 -o CMakeFiles\\Practica1.dir\\src\\EEDD\\lista_enlazada_doble.c.obj -c C:\\Users\\Usuario\\Desktop\\ED\\Spotify\\EsqueletoPractica2\\src\\EEDD\\lista_enlazada_doble.c",
+  "file": "C:/Users/Usuario/Desktop/ED/Spotify/EsqueletoPractica2/src/EEDD/lista_enlazada_doble.c",
+  "output": "CMakeFiles/Practica1.dir/src/EEDD/lista_enlazada_doble.c.obj"
+}
+]
